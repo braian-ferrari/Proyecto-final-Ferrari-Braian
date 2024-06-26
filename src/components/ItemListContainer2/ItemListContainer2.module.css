@@ -1,0 +1,11 @@
+.Itemliscontainer{
+        width: 100%;
+        display: flex;
+        flex-direction: wrap;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: start;
+    
+    
+}

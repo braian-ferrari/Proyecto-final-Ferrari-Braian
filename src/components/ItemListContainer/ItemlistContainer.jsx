@@ -7,7 +7,7 @@ import Loader from "../Loader/Loader";
 
 const ItemListContainer = ({ greeting }) => {
   const [products, setProducts] = useState([]);
-  const { marca } = useParams();
+  const { marca} = useParams(); 
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -18,7 +18,6 @@ const ItemListContainer = ({ greeting }) => {
       try {
         let docsRef = collection(db, "productos");
 
-        // Si 'marca' está definida, aplica el filtro
         if (marca) {
           docsRef = query(docsRef, where("marca", "==", marca.toLowerCase()));
         }
@@ -33,7 +32,7 @@ const ItemListContainer = ({ greeting }) => {
     };
 
     fetchProducts();
-  }, [marca]);
+  }, [marca]); 
 
   if (loading) return <Loader />;
 
@@ -46,3 +45,4 @@ const ItemListContainer = ({ greeting }) => {
 };
 
 export default ItemListContainer;
+

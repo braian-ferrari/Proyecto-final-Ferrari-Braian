@@ -20,6 +20,7 @@ const ItemDetail = ({ producto }) => {
       <h3>{producto.nombre}</h3>
       <img src={producto.imagen} alt={producto.nombre} className={`${styles.imagenes}`} />
       <p>{producto.descripcion}</p>
+      <p>{'$'+ producto.precio}</p>
       <Count count={count} handleCount={setCount} stock={producto.stock} />
       <button type="button" className={`btn btn-info ${styles.buttonCarrito}`} onClick={addItem}>
         Agregar al Carrito

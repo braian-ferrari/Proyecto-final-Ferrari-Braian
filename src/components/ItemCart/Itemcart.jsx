@@ -9,7 +9,7 @@ const ItemCart = ({ item }) => {
     <div className={`${styles.containterItemCart}`}>
       <h3>{item.nombre}</h3>
       <img src={item.imagen} alt={item.nombre} className={`${styles.imagenItemCart}`}/>
-      <p className>Precio: {item.precio}</p>
+      <p className>Precio: {'$'+ item.precio}</p>
       <p className>Cantidad: {item.cuantity}</p>
       <button 
         type="button" 

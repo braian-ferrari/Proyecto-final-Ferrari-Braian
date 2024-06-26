@@ -7,7 +7,7 @@ import Loader from "../Loader/Loader";
 
 const ItemListContainer = ({ greeting }) => {
   const [products, setProducts] = useState([]);
-  const { id, marca } = useParams(); // Obtener marca de los parámetros de la URL
+  const { marca } = useParams();
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -18,14 +18,9 @@ const ItemListContainer = ({ greeting }) => {
       try {
         let docsRef = collection(db, "productos");
 
-        // Aplicar filtro por categoría si está definida
-        if (id) {
-          docsRef = query(docsRef, where("categoryId", "==", id));
-        }
-
-        // Aplicar filtro por marca si está definida
+        // Si 'marca' está definida, aplica el filtro
         if (marca) {
-          docsRef = query(docsRef, where("marca", "==", marca));
+          docsRef = query(docsRef, where("marca", "==", marca.toLowerCase()));
         }
 
         const querySnapshot = await getDocs(docsRef);
@@ -38,7 +33,7 @@ const ItemListContainer = ({ greeting }) => {
     };
 
     fetchProducts();
-  }, [id, marca]);
+  }, [marca]);
 
   if (loading) return <Loader />;
 

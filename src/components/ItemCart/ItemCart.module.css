@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-
-.ContainerItemDetail{
+.containterItemCart{
     margin: 20px;
     display: flex;
     justify-content: start;
@@ -11,12 +9,7 @@
     font-size: x-large;
 }
 
-.buttonCarrito{
-margin: 20px;
-width: 150px;
-height:50px;
-}
-.imagenes{
+.imagenItemCart{
+    width: 200px;
     height: auto;
-    width: 400px;
 }

@@ -1,0 +1,356 @@
+[
+    {
+        "id": 1,
+        "tipo": "Calzado",
+        "nombre": "Nike Elevate 3",
+        "marca": "Nike",
+        "precio": "$72000.00",
+        "moneda": "ARS",
+        "tallas": [
+            40,
+            41,
+            42,
+            43,
+            44,
+            45
+        ],
+        "colores": [
+            "negro",
+            "blanco",
+            "azul"
+        ],
+        "descripcion": "Zapatillas de baloncesto de alto rendimiento con amortiguación receptiva y excelente tracción.",
+        "imagen_url": "Imagenes/793140-1200-1200.webp",
+        "stock": 25
+    },
+    {
+        "id": 2,
+        "tipo": "Calzado",
+        "nombre": "Adidas D.O.N Issue 4",
+        "marca": "Adidas",
+        "precio": "$52000.00",
+        "moneda": "ARS",
+        "tallas": [
+            39,
+            40,
+            41,
+            42,
+            43,
+            44
+        ],
+        "colores": [
+            "rojo",
+            "blanco",
+            "negro"
+        ],
+        "descripcion": "Zapatillas de baloncesto ligeras diseñadas para un rendimiento explosivo en la cancha.",
+        "imagen_url": "Imagenes/Zapatillas_D.O.N._Issue_4_Violeta_HR0710_01_standard.png",
+        "stock": 40
+    },
+    {
+        "id": 3,
+        "tipo": "Calzado",
+        "nombre": " Curry 11 'Future Curry' Unisex",
+        "marca": "UnderArmour",
+        "precio": "$56000.00",
+        "moneda": "ARS",
+        "tallas": [
+            40,
+            41,
+            42,
+            43,
+            44
+        ],
+        "colores": [
+            "azul",
+            "blanco",
+            "amarillo"
+        ],
+        "descripcion": "Zapatillas de baloncesto que ofrecen soporte superior y amortiguación para un juego dinámico.",
+        "imagen_url": "Imagenes/3027416-2.jpeg",
+        "stock": 30
+    },
+    {
+        "id": 4,
+        "tipo": "Calzado",
+        "nombre": "Zapatillas de básquet MB.01 Inverse Toxic",
+        "marca": "Puma",
+        "precio": "$48000.00",
+        "moneda": "ARS",
+        "tallas": [
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45
+        ],
+        "colores": [
+            "blanco",
+            "negro"
+        ],
+        "descripcion": "Zapatillas de baloncesto versátiles con excelente agarre y ajuste cómodo.",
+        "imagen_url": "Imagenes/png.avif",
+        "stock": 20
+    },
+    {
+        "id": 5,
+        "tipo": "Calzado",
+        "nombre": "Air Jordan 5 Navy",
+        "marca": "Jordan",
+        "precio": "$64000.00",
+        "moneda": "ARS",
+        "tallas": [
+            40,
+            41,
+            42,
+            43,
+            44
+        ],
+        "colores": [
+            "negro",
+            "rojo",
+            "blanco"
+        ],
+        "descripcion": "Zapatillas de baloncesto de alto rendimiento con amortiguación receptiva y estilo icónico.",
+        "imagen_url": "Imagenes/846214-1200-1200.webp",
+        "stock": 15
+    },
+    {
+        "id": 6,
+        "tipo": "Calzado",
+        "nombre": "Lebron NXXT Gen",
+        "marca": "Nike",
+        "precio": "$78000.00",
+        "moneda": "ARS",
+        "tallas": [
+            40,
+            41,
+            42,
+            43,
+            44,
+            45
+        ],
+        "colores": [
+            "negro",
+            "azul",
+            "dorado"
+        ],
+        "descripcion": "Zapatillas de baloncesto diseñadas para ofrecer máxima amortiguación y soporte.",
+        "imagen_url": "Imagenes/731329-1200-1200.webp",
+        "stock": 18
+    },
+    {
+        "id": 7,
+        "tipo": "Calzado",
+        "nombre": "Adidas TRAE YOUNG 3 LOW",
+        "marca": "Adidas",
+        "precio": "$60000.00",
+        "moneda": "ARS",
+        "tallas": [
+            39,
+            40,
+            41,
+            42,
+            43,
+            44
+        ],
+        "colores": [
+            "negro",
+            "rojo",
+            "gris"
+        ],
+        "descripcion": "Zapatillas de baloncesto ligeras con excelente tracción y soporte dinámico.",
+        "imagen_url": "Imagenes/Zapatillas_Trae_Young_3_Low_Gris_IE2708_01_standard.avif",
+        "stock": 22
+    },
+    {
+        "id": 8,
+        "tipo": "Calzado",
+        "nombre": "Adidas DAME CERTIFIED 2",
+        "marca": "Adidas",
+        "precio": "$50000.00",
+        "moneda": "ARS",
+        "tallas": [
+            40,
+            41,
+            42,
+            43,
+            44
+        ],
+        "colores": [
+            "blanco",
+            "negro",
+            "verde"
+        ],
+        "descripcion": "Zapatillas de baloncesto con amortiguación HOVR para una comodidad superior.",
+        "imagen_url": "Imagenes/Zapatillas_Dame_Certified_2_Gris_IE7793_01_standard.avif",
+        "stock": 35
+    },
+    {
+        "id": 9,
+        "tipo": "Calzado",
+        "nombre": "Zapatillas de Baketball UA Jet '21 Unisex",
+        "marca": "UnderArmour",
+        "precio": "$55000.00",
+        "moneda": "ARS",
+        "tallas": [
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45
+        ],
+        "colores": [
+            "negro",
+            "amarillo",
+            "rojo"
+        ],
+        "descripcion": "Zapatillas de baloncesto con diseño audaz y tecnología avanzada para un rendimiento óptimo.",
+        "imagen_url": "Imagenes/196039516961-1.jpeg",
+        "stock": 28
+    },
+    {
+        "id": 10,
+        "tipo": "Calzado",
+        "nombre": "Air Jordan XXXVII Zion",
+        "marca": "Jordan",
+        "precio": "$68000.00",
+        "moneda": "ARS",
+        "tallas": [
+            40,
+            41,
+            42,
+            43,
+            44
+        ],
+        "colores": [
+            "blanco",
+            "negro",
+            "azul"
+        ],
+        "descripcion": "Zapatillas de baloncesto de última generación con tecnología de amortiguación avanzada.",
+        "imagen_url": "Imagenes/790224-1200-1200.webp",
+        "stock": 10
+    },
+    {
+        "id": 11,
+        "tipo": "Indumentaria",
+        "nombre": "Buzo NBA Classic",
+        "marca": "Jordan",
+        "precio": "$3500.00",
+        "moneda": "ARS",
+        "tallas": ["S", "M", "L", "XL"],
+        "colores": ["negro", "gris", "azul"],
+        "descripcion": "Buzo clásico de la NBA para mantenerte abrigado durante la práctica o el juego.",
+        "imagen_url": "Imagenes/buzo_nba_classic.webp",
+        "stock": 50
+    },
+    {
+        "id": 12,
+        "tipo": "Indumentaria",
+        "nombre": "Remera Los Angeles Lakers",
+        "marca": "Nike",
+        "precio": "$2500.00",
+        "moneda": "ARS",
+        "tallas": ["S", "M", "L", "XL"],
+        "colores": ["amarillo", "morado"],
+        "descripcion": "Remera oficial de los Los Angeles Lakers para mostrar tu apoyo al equipo favorito.",
+        "imagen_url": "Imagenes/remera_lakers.webp",
+        "stock": 30
+    },
+    {
+        "id":13,
+        "tipo": "Indumentaria",
+        "nombre": "Medias de compresión Nike Elite",
+        "marca": "Nike",
+        "precio": "$800.00",
+        "moneda": "ARS",
+        "tallas": ["S", "M", "L"],
+        "colores": ["negro", "blanco", "rojo"],
+        "descripcion": "Medias de compresión para mejorar el rendimiento y reducir la fatiga muscular durante el juego.",
+        "imagen_url": "Imagenes/medias_nike_elite.webp",
+        "stock": 100
+    },
+    {
+        "id":14,
+        "tipo": "Indumentaria",
+        "nombre": "Adidas",
+        "marca": "Mitchell & Ness",
+        "precio": "$4000.00",
+        "moneda": "ARS",
+        "tallas": ["S", "M", "L", "XL"],
+        "colores": ["negro", "rojo"],
+        "descripcion": "Buzo clásico de los Chicago Bulls para los fanáticos de la NBA.",
+        "imagen_url": "Imagenes/buzo_chicago_bulls.webp",
+        "stock": 40
+    },
+    {
+        "id":15,
+        "tipo": "Indumentaria",
+        "nombre": "Remera Golden State Warriors",
+        "marca": "UnderArmour",
+        "precio": "$2800.00",
+        "moneda": "ARS",
+        "tallas": ["S", "M", "L", "XL"],
+        "colores": ["azul", "amarillo"],
+        "descripcion": "Remera oficial de los Golden State Warriors para lucir en la cancha o en las calles.",
+        "imagen_url": "Imagenes/remera_warriors.webp",
+        "stock": 35
+    },
+    {
+        "id":16,
+        "tipo": "Indumentaria",
+        "nombre": "Medias NBA Clásicas",
+        "marca": "Jordan",
+        "precio": "$700.00",
+        "moneda": "ARS",
+        "tallas": ["S", "M", "L"],
+        "colores": ["blanco", "negro"],
+        "descripcion": "Medias clásicas de la NBA para completar tu atuendo de baloncesto.",
+        "imagen_url": "Imagenes/medias_nba_clasicas.webp",
+        "stock": 80
+    },
+    {
+        "id":17,
+        "tipo": "Indumentaria",
+        "nombre": "Remera Miami Heat",
+        "marca": "Nike",
+        "precio": "$2700.00",
+        "moneda": "ARS",
+        "tallas": ["S", "M", "L", "XL"],
+        "colores": ["rojo", "negro", "blanco"],
+        "descripcion": "Remera oficial de los Miami Heat para los fanáticos del baloncesto.",
+        "imagen_url": "Imagenes/remera_heat.webp",
+        "stock": 25
+    },
+    {
+        "id":18,
+        "tipo": "Indumentaria",
+        "nombre": "Remera Boston Celtics",
+        "marca": "Adidas",
+        "precio": "$2600.00",
+        "moneda": "ARS",
+        "tallas": ["S", "M", "L", "XL"],
+        "colores": ["verde", "blanco"],
+        "descripcion": "Remera oficial de los Boston Celtics para mostrar tu apoyo al equipo legendario.",
+        "imagen_url": "Imagenes/remera_celtics.webp",
+        "stock": 30
+    },
+    {
+        "id":19,
+        "tipo": "Indumentaria",
+        "nombre": "Medias de compresión Adidas Pro",
+        "marca": "Adidas",
+        "precio": "$900.00",
+        "moneda": "ARS",
+        "tallas": ["S", "M", "L"],
+        "colores": ["negro", "blanco", "rojo"],
+        "descripcion": "Medias de compresión diseñadas para mejorar el rendimiento en la cancha de baloncesto.",
+        "imagen_url": "Imagenes/medias_adidas_pro.webp",
+        "stock": 60
+    }
+]

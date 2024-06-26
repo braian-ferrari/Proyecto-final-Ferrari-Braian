@@ -1,0 +1,18 @@
+.Nosotros{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    font-size: x-large;
+    margin:20px;
+}
+P{
+    color: black;
+    
+}
+.Link{
+    text-decoration: none;
+}

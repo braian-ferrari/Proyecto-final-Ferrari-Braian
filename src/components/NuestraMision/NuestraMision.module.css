@@ -1,0 +1,17 @@
+.NuestraMision{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        font-family: "Bebas Neue", sans-serif;
+        font-style: normal;
+        font-size: x-large;
+        margin:30px;
+    }
+h2{
+    margin: 10px;
+}
+p{
+    margin: 20px;
+}

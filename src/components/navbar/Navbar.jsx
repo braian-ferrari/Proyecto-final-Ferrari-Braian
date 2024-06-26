@@ -18,12 +18,12 @@ function Navbar() {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <Link to='/calzado' className="nav-link" role="button"  aria-expanded="false">
+                            <Link to='/Calzado' className="nav-link" role="button"  aria-expanded="false">
                                 Calzado
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link to='/indumentaria' className="nav-link " role="button"  aria-expanded="false">
+                            <Link to='/Indumentaria' className="nav-link " role="button"  aria-expanded="false">
                                 Indumentaria
                             </Link>
                         </li>
